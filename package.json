@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-brace-rules",
+  "version": "0.0.0",
+  "description": "Enhancements to eslint brace rules",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Joshua Searles",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0",
+    "lodash": "^4.14.2",
+    "mocha": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
